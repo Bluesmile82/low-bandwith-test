@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/:match*", "destination": "https://polar-view.vercel.app/:match*" },
+    { "source": "/high/:match*", "destination": "https://polar-view-storybook.vercel.app:match*" }
+  ]
+}
